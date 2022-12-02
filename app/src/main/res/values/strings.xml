@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">mohammed_s_application2</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_height">Height</string>
+<string name="lbl_next">Next</string>
+<string name="lbl_140_cm">140
+cm</string>
+<string name="msg_wed_health_insu">Wed Health Insurance 
+$3400 per year</string>
+<string name="lbl_100">100</string>
+<string name="msg_freedom_health">Freedom Health Insurance 
+$2300 per year</string>
+<string name="lbl_105">105</string>
+<string name="lbl_9_plans_found">9 Plans Found</string>
+<string name="lbl_female">Female</string>
+<string name="lbl_app_navigation">App Navigation</string>
+<string name="msg_hdlife_health_i">HDlife Health Insurance 
+$4440 per year</string>
+<string name="msg_most_reliable_t">Most Reliable Term Life Plans at Lowest Rates</string>
+<string name="msg_best_health_ins2">Best Health Insurance plans
+</string>
+<string name="msg_reliable_plans">Reliable Plans at Lowest Rates</string>
+<string name="lbl_90">90</string>
+<string name="msg_best_health_ins3">Best Health Insurance plans. Customized for you.</string>
+<string name="msg_most_reliable_p">Most Reliable Plans
+Reliable Plans at Lowest Rates</string>
+<string name="lbl_4440">$4440 </string>
+<string name="msg_bupa_health_ins2">Bupa Health Insurance 
+</string>
+<string name="lbl_95">95</string>
+<string name="lbl_4400">$4400 </string>
+<string name="lbl_male">Male</string>
+<string name="msg_life_stage_bene">Life stage benefit
+Option to increase cover after:
+Marriage, 1st &amp; 2nd child birth</string>
+<string name="lbl_3400">$3400 </string>
+<string name="msg_iphone_11_pro_m">iPhone 11 Pro Max - Two</string>
+<string name="msg_terminal_illnes">Terminal illness benefit
+If you are diagnosed with Terminal illness :Get 100% of your cover immediately</string>
+<string name="lbl_choose">Choose </string>
+<string name="lbl_per_year">per year</string>
+<string name="msg_customized_for">Customized for you !</string>
+<string name="msg_wpa_health_insu2">WPA Health Insurance 
+</string>
+<string name="lbl_155_cm">155 
+cm</string>
+<string name="lbl_80">80</string>
+<string name="lbl_85">85</string>
+<string name="lbl_165_cm">165 
+cm</string>
+<string name="lbl_2300">$2300 </string>
+<string name="msg_hdlife_health_i2">HDlife Health Insurance 
+</string>
+<string name="msg_iphone_11_pro_m8">iPhone 11 Pro Max - Six</string>
+<string name="msg_iphone_11_pro_m9">iPhone 11 Pro Max - Seven</string>
+<string name="lbl_175_cm">175 
+cm</string>
+<string name="lbl_details">details</string>
+<string name="msg_wpa_health_insu">WPA Health Insurance 
+$4400 per year</string>
+<string name="lbl_choose_details">Choose details</string>
+<string name="lbl_70">70</string>
+<string name="msg_wed_health_insu2">Wed Health Insurance 
+</string>
+<string name="msg_bupa_health_ins">Bupa Health Insurance 
+$3300 per year</string>
+<string name="msg_most_reliable_p2">Most Reliable Plans
+</string>
+<string name="msg_iphone_11_pro_m10">iPhone 11 Pro Max - Nine</string>
+<string name="lbl_75">75</string>
+<string name="msg_iphone_11_pro_m6">iPhone 11 Pro Max - Eleven</string>
+<string name="msg_check_your_app">"Check your app's UI from the below demo screens of your app."</string>
+<string name="msg_iphone_11_pro_m7">iPhone 11 Pro Max - Twelve</string>
+<string name="msg_iphone_11_pro_m4">iPhone 11 Pro Max - Five</string>
+<string name="lbl_relevance">Relevance</string>
+<string name="lbl_200_cm">200
+cm</string>
+<string name="msg_iphone_11_pro_m5">iPhone 11 Pro Max - Ten</string>
+<string name="msg_iphone_11_pro_m11">iPhone 11 Pro Max - Eight</string>
+<string name="msg_iphone_11_pro_m2">iPhone 11 Pro Max - Three</string>
+<string name="msg_iphone_11_pro_m3">iPhone 11 Pro Max - Four</string>
+<string name="msg_best_health_ins">Best Health Insurance plans
+Customized for you !</string>
+<string name="lbl_weight_kg">Weight (Kg)</string>
+<string name="lbl_3300">$3300 </string>
+<string name="lbl_claim_settled">Claim Settled</string>
+<string name="msg_freedom_health2">Freedom Health Insurance 
+</string>
+</resources>

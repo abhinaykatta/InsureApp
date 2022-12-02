@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="iphone11ProMaxTwelveVM" type="com.mohammedsapplication.app.modules.iphone11promaxtwelve.data.viewmodel.Iphone11ProMaxTwelveVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumnarrowleft"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/_17pxh"
+        android:layout_marginStart="@dimen/_17pxh"
+        android:layout_marginTop="@dimen/_22pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyle_5">
+        <LinearLayout android:id="@+id/linearIPhone11ProM"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStyle_5">
+            <ImageView android:id="@+id/imageArrowleft"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_14pxh"
+                android:layout_marginEnd="@dimen/_13pxh"
+                android:layout_marginStart="@dimen/_13pxh"
+                android:layout_width="@dimen/_16pxh"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_arrowleft"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_arrowleft"/>
+            <LinearLayout android:id="@+id/linearColumn9plansfound"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_19pxv"
+                android:layout_width="match_parent" android:orientation="vertical">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txt9PlansFound"
+                    android:layout_gravity="start"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_13pxh"
+                    android:layout_marginStart="@dimen/_13pxh"
+                    android:layout_width="wrap_content"
+                    android:lineSpacingExtra="@dimen/_1pxh"
+                    android:singleLine="true"
+                    android:text="@{iphone11ProMaxTwelveVM.iphone11ProMaxTwelveModel.txt9PlansFound}"
+                    style="@style/txtInterbold24" tools:text="@string/lbl_9_plans_found"/>
+                <LinearLayout android:id="@+id/linearRowclaimSettled"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_11pxh"
+                    android:layout_marginStart="@dimen/_4pxh"
+                    android:layout_marginTop="@dimen/_46pxv"
+                    android:layout_width="match_parent" android:orientation="horizontal">
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnClaimSettled"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.57"
+                        android:layout_width="0dp"
+                        android:letterSpacing="0.0"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:paddingBottom="@dimen/_19pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_19pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_claim_settled"
+                        android:textAllCaps="false"
+                        style="@style/btnGradientRounded" tools:text="@string/lbl_claim_settled"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:ellipsize="end" android:gravity="center"
+                        android:id="@+id/btnRelevance"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/_7pxv"
+                        android:layout_marginStart="@dimen/_14pxh"
+                        android:layout_marginTop="@dimen/_8pxv"
+                        android:layout_weight="0.43"
+                        android:layout_width="0dp"
+                        android:letterSpacing="0.0"
+                        android:lineSpacingExtra="@dimen/_1pxh"
+                        android:paddingBottom="@dimen/_11pxv"
+                        android:paddingEnd="@dimen/_30pxh"
+                        android:paddingStart="@dimen/_30pxh"
+                        android:paddingTop="@dimen/_11pxv"
+                        android:singleLine="true"
+                        android:text="@string/lbl_relevance"
+                        android:textAllCaps="false"
+                        style="@style/btnSolidRounded_1" tools:text="@string/lbl_relevance"/>
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:gravity="start"
+                    android:id="@+id/recyclerListcomponentlott"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_25pxv"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    itemSpace="@{@dimen/_23pxh}" tools:itemCount="5" tools:listitem="@layout/row_listcomponentlott1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

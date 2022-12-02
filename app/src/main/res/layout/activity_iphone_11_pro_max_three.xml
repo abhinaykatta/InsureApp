@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="iphone11ProMaxThreeVM" type="com.mohammedsapplication.app.modules.iphone11promaxthree.data.viewmodel.Iphone11ProMaxThreeVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearIPhone11ProM"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyle_1">
+        <ImageView android:id="@+id/imageComponentlott"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_300pxh"
+            android:layout_marginEnd="@dimen/_47pxh"
+            android:layout_marginStart="@dimen/_47pxh"
+            android:layout_marginTop="@dimen/_120pxv"
+            android:layout_width="@dimen/_300pxh"
+            android:scaleType="centerCrop" circular="@{true}"
+            imageRes="@{@drawable/img_componentlott_300x300}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_componentlott_300x300"/>
+        <com.asksira.loopingviewpager.LoopingViewPager
+            android:gravity="center_horizontal"
+            android:id="@+id/imageSliderSliderrequestaride"
+            android:layout_height="@dimen/_336pxv"
+            android:layout_marginEnd="@dimen/_47pxh"
+            android:layout_marginStart="@dimen/_47pxh"
+            android:layout_marginTop="@dimen/_45pxv"
+            android:layout_width="match_parent" app:autoScroll="true"
+            app:isInfinite="true" app:scrollInterval="5000"/>
+        <FrameLayout android:id="@+id/frameCar"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_9pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_47pxh"
+            android:layout_marginStart="@dimen/_47pxh"
+            android:layout_marginTop="@dimen/_43pxv" android:layout_width="@dimen/_51pxh">
+
+            <com.asksira.loopingviewpager.indicator.CustomShapePagerIndicator
+                android:id="@+id/indicatorGroupFortyThree"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_2pxv"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_2pxv"
+                android:layout_width="wrap_content"
+                app:drawable_normal="@drawable/indicator_unselected_bg_gray_700_radius_8"
+                app:drawable_selected="@drawable/indicator_selected_bg_gray_902_radius_8"
+                app:indicator_size="@dimen/_5pxh" app:indicator_spacing="@dimen/_10pxh"/>
+            <ImageView android:id="@+id/imageTwo"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_9pxh"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="@dimen/_23pxh"
+                android:scaleType="fitXY" android:src="@drawable/img_2"
+                tools:ignore="ContentDescription" tools:src="@drawable/img_2"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

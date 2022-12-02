@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.mohammedsapplication.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.mohammedsapplication.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.mohammedsapplication.app.modules.appnavigation.ui.AppNavigationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mohammedsapplication.app.modules.iphone11promaxfive.ui.Iphone11ProMaxFiveActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.mohammedsapplication.app.modules.iphone11promaxtwo.ui.Iphone11ProMaxTwoActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mohammedsapplication.app.modules.iphone11promaxten.ui.Iphone11ProMaxTenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mohammedsapplication.app.modules.iphone11promaxeight.ui.Iphone11ProMaxEightActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mohammedsapplication.app.modules.iphone11promaxnine.ui.Iphone11ProMaxNineActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mohammedsapplication.app.modules.iphone11promaxfour.ui.Iphone11ProMaxFourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mohammedsapplication.app.modules.iphone11promaxseven.ui.Iphone11ProMaxSevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mohammedsapplication.app.modules.iphone11promaxsix.ui.Iphone11ProMaxSixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mohammedsapplication.app.modules.iphone11promaxthree.ui.Iphone11ProMaxThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mohammedsapplication.app.modules.iphone11promaxtwelve.ui.Iphone11ProMaxTwelveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.mohammedsapplication.app.modules.iphone11promaxeleven.ui.Iphone11ProMaxElevenActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

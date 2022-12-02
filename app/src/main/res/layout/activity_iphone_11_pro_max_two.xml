@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="iphone11ProMaxTwoVM" type="com.mohammedsapplication.app.modules.iphone11promaxtwo.data.viewmodel.Iphone11ProMaxTwoVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearIPhone11ProM"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyle">
+        <ImageView android:id="@+id/imageComponentlott"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_300pxh"
+            android:layout_marginEnd="@dimen/_47pxh"
+            android:layout_marginStart="@dimen/_47pxh"
+            android:layout_marginTop="@dimen/_120pxv"
+            android:layout_width="@dimen/_300pxh"
+            android:scaleType="centerCrop" circular="@{true}"
+            imageRes="@{@drawable/img_componentlott}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_componentlott"/>
+        <LinearLayout android:gravity="center_horizontal"
+            android:id="@+id/linearColumnrequestaride"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_47pxh"
+            android:layout_marginStart="@dimen/_47pxh"
+            android:layout_marginTop="@dimen/_45pxv"
+            android:layout_width="match_parent"
+            android:orientation="vertical" style="@style/groupStylewhite_A700cornerRadius">
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtRequestaride"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_22pxh"
+                android:layout_marginTop="@dimen/_41pxv"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.02"
+                android:lineSpacingExtra="@dimen/_9pxh"
+                android:text="@{iphone11ProMaxTwoVM.iphone11ProMaxTwoModel.txtRequestaride}"
+                style="@style/txtPoppinsbold25" tools:text="@string/msg_best_health_ins"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtHelpyoufindt"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_22pxh"
+                android:layout_marginStart="@dimen/_22pxh"
+                android:layout_marginTop="@dimen/_37pxv"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="@dimen/_6pxh"
+                android:text="@{iphone11ProMaxTwoVM.iphone11ProMaxTwoModel.txtHelpyoufindt}"
+                style="@style/txtRobotoregular14" tools:text="@string/msg_best_health_ins3"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:ellipsize="end" android:gravity="center"
+                android:id="@+id/btnNext"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_49pxv"
+                android:layout_marginEnd="@dimen/_22pxh"
+                android:layout_marginStart="@dimen/_22pxh"
+                android:layout_marginTop="@dimen/_33pxv"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.0"
+                android:lineSpacingExtra="@dimen/_1pxh"
+                android:paddingBottom="@dimen/_15pxv"
+                android:paddingEnd="@dimen/_30pxh"
+                android:paddingStart="@dimen/_30pxh"
+                android:paddingTop="@dimen/_15pxv"
+                android:singleLine="true"
+                android:text="@string/lbl_next"
+                android:textAllCaps="false"
+                style="@style/btnSolidRounded" tools:text="@string/lbl_next"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/imageCar"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_9pxh"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_47pxh"
+            android:layout_marginStart="@dimen/_47pxh"
+            android:layout_marginTop="@dimen/_43pxv"
+            android:layout_width="@dimen/_53pxh"
+            android:scaleType="fitXY" android:src="@drawable/img_car"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_car"/>
+    </LinearLayout>
+</layout>

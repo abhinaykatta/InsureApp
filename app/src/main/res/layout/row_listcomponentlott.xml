@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listcomponentlottRowModel" type="com.mohammedsapplication.app.modules.iphone11promaxeleven.data.model.ListcomponentlottRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowcomponentlott"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylecornerRadius_2">
+        <ImageView android:id="@+id/imageComponentlott"
+            android:layout_height="@dimen/_94pxh"
+            android:layout_marginBottom="@dimen/_15pxv"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_marginTop="@dimen/_21pxv"
+            android:layout_width="@dimen/_94pxh"
+            android:scaleType="centerCrop" circular="@{true}"
+            imageRes="@{@drawable/img_componentlott_94x94}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_componentlott_94x94"/>
+        <FrameLayout android:id="@+id/frameStackprice"
+            android:layout_height="@dimen/_78pxv"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_17pxh"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_marginTop="@dimen/_31pxv" android:layout_width="@dimen/_227pxh">
+            <TextView android:gravity="top|start"
+                android:id="@+id/txtPrice"
+                android:layout_gravity="top|center"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginStart="@dimen/_2pxh"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.02"
+                android:lineSpacingExtra="@dimen/_6pxh"
+                android:text="@{listcomponentlottRowModel.txtPrice}"
+                style="@style/txtPoppinsbold16" tools:text="@string/msg_freedom_health"/>
+            <TextView android:gravity="top|start"
+                android:id="@+id/txtDescription"
+                android:layout_gravity="bottom|start"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_10pxv"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="@dimen/_2pxh"
+                android:text="@{listcomponentlottRowModel.txtDescription}"
+                style="@style/txtRobotoregular12" tools:text="@string/msg_life_stage_bene"/>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

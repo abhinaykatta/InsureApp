@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="imageSliderSliderrequestarideModel" type="com.mohammedsapplication.app.modules.iphone11promaxthree.data.model.ImageSliderSliderrequestarideModel"/>
+    </data>
+    <LinearLayout android:gravity="end"
+        android:id="@+id/linearColumnrequestaride"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700cornerRadius">
+        <TextView android:id="@+id/txtRequestaride"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_27pxh"
+            android:layout_marginStart="@dimen/_27pxh"
+            android:layout_marginTop="@dimen/_72pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="@dimen/_9pxh"
+            android:text="@{imageSliderSliderrequestarideModel.txtRequestaride}"
+            style="@style/txtPoppinsbold25" tools:text="@string/msg_most_reliable_p"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtHelpyoufindt"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_27pxh"
+            android:layout_marginStart="@dimen/_27pxh"
+            android:layout_marginTop="@dimen/_11pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="@dimen/_6pxh"
+            android:text="@{imageSliderSliderrequestarideModel.txtHelpyoufindt}"
+            style="@style/txtRobotoregular14" tools:text="@string/msg_most_reliable_t"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnNext"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_49pxv"
+            android:layout_marginEnd="@dimen/_27pxh"
+            android:layout_marginStart="@dimen/_27pxh"
+            android:layout_marginTop="@dimen/_37pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.0"
+            android:lineSpacingExtra="@dimen/_1pxh"
+            android:paddingBottom="@dimen/_15pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_15pxv" android:singleLine="true"
+            android:text="@string/lbl_next" android:textAllCaps="false"
+            style="@style/btnSolidRounded" tools:text="@string/lbl_next"/>
+    </LinearLayout>
+</layout>
